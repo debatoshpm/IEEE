@@ -1,0 +1,46 @@
+.card-block {
+  font-size: 1em;
+  margin: 0;
+  padding: 1em;
+  border: none;
+  border-top: 1px solid rgba(34, 36, 38, 0.1);
+  box-shadow: none;
+  text-align: center;
+}
+.card {
+  font-size: 1em;
+  overflow: hidden;
+  padding: 5;
+  border: none;
+  border-radius: 0.28571429rem;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  margin-top: 20px;
+  background: linear-gradient(90deg, #05bcc9 0%, #006792 100%);
+}
+
+.join-hd1 {
+  margin-top: 30px;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+.join-hd2 {
+  margin-top: 60px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.join-hd3 {
+  margin-top: 30px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .join-img {
+    display: none;
+  }
+}

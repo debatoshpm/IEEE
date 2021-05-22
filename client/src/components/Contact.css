@@ -1,0 +1,28 @@
+.google-map {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+.map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+@media screen and (max-width: 767px) {
+  .google-map {
+    display: none;
+  }
+}
+
+.button3 {
+  color: #fff;
+  background: #6568f4;
+}
+
+.button3:hover {
+  background: #4ad9e4;
+}
