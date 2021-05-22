@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import logo from "../assets/images/logo.png";
 import "./Navbar.css";
 class Navbar extends Component {
@@ -46,7 +46,10 @@ class Navbar extends Component {
                           href="https://www.facebook.com/"
                           title="Facebook"
                           target="_blank"
-                        ></a>
+                          rel="noreferrer"
+                        >
+                          {""}
+                        </a>
                       </li>
                       <li>
                         <a
@@ -54,7 +57,10 @@ class Navbar extends Component {
                           href="https://plus.google.com/"
                           title="Google+"
                           target="_blank"
-                        ></a>
+                          rel="noreferrer"
+                        >
+                          {""}
+                        </a>
                       </li>
                       <li>
                         <a
@@ -62,7 +68,10 @@ class Navbar extends Component {
                           href="https://twitter.com"
                           title="Twitter"
                           target="_blank"
-                        ></a>
+                          rel="noreferrer"
+                        >
+                          {""}
+                        </a>
                       </li>
                       <li>
                         <a
@@ -70,7 +79,10 @@ class Navbar extends Component {
                           href="https://www.linkedin.com"
                           title="LinkedIn"
                           target="_blank"
-                        ></a>
+                          rel="noreferrer"
+                        >
+                          {""}
+                        </a>
                       </li>
                       <li>
                         <a
@@ -78,14 +90,17 @@ class Navbar extends Component {
                           href="https://www.instagram.com"
                           title="Instagram"
                           target="_blank"
-                        ></a>
+                          rel="noreferrer"
+                        >
+                          {""}
+                        </a>
                       </li>
                     </ul>
                   </div>
                 </div>
                 <div className="float-right">
                   <div className="make_appo">
-                    <a className="btn white_btn" href="#">
+                    <a className="btn white_btn" href="https://www.google.com/">
                       Join IEEE
                     </a>
                   </div>
@@ -102,7 +117,7 @@ class Navbar extends Component {
               <div className="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                 {/* <!-- logo start --> */}
                 <div className="logo">
-                  <a href="#">
+                  <a href="https://www.google.com/">
                     <img src={logo} alt="logo" />
                   </a>
                 </div>
@@ -114,43 +129,43 @@ class Navbar extends Component {
                   <div id="navbar_menu">
                     <ul className="first-ul">
                       <li>
-                        <a className="active" href="#">
+                        <a className="active" href="https://www.google.com/">
                           Home
                         </a>
                       </li>
                       <li>
-                        <a href="#">About Us</a>
+                        <a href="https://www.google.com/">About Us</a>
                       </li>
                       <li>
-                        <a href="#">Events</a>
+                        <a href="https://www.google.com/">Events</a>
                         <ul>
                           <li>
-                            <a href="#">Drop Down 1</a>
+                            <a href="https://www.google.com/">Drop Down 1</a>
                           </li>
                           <li>
-                            <a href="#">Drop Down 2</a>
+                            <a href="https://www.google.com/">Drop Down 2</a>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="#">Lorem</a>
+                        <a href="https://www.google.com/">Lorem</a>
                         <ul>
                           <li>
-                            <a href="#">Drop Down 1</a>
+                            <a href="https://www.google.com/">Drop Down 1</a>
                           </li>
                           <li>
-                            <a href="#">Drop Down 2</a>
+                            <a href="https://www.google.com/">Drop Down 2</a>
                           </li>
                           <li>
-                            <a href="#">Drop Down 3</a>
+                            <a href="https://www.google.com/">Drop Down 3</a>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="#">Contact</a>
+                        <a href="https://www.google.com/">Contact</a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://www.google.com/">
                           <i className="fa fa-moon-o" aria-hidden="true"></i>
                           Mode
                         </a>
@@ -161,7 +176,7 @@ class Navbar extends Component {
                     <ul>
                       <li>
                         <a
-                          href="#"
+                          href="https://www.google.com/"
                           data-toggle="modal"
                           data-target="#search_bar"
                         >

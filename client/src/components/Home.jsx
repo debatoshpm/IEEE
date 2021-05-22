@@ -232,7 +232,7 @@ class Home extends Component {
                     quasi architecto beatae vitae dicta sunt explicabo..
                   </p>
                   <p>
-                    <a className="btn main_bt" href="#">
+                    <a className="btn main_bt" href="https://www.google.com/">
                       Read More
                     </a>
                   </p>
@@ -570,7 +570,10 @@ class Home extends Component {
                 <p className="join-hd2">Sign up today to get involved in the</p>
                 <p className="join-hd3">NSEC IEEE STUDENT BRANCH.</p>
                 <br />
-                <a href="#" className="btn button1 btn-sm">
+                <a
+                  href="https://www.google.com/"
+                  className="btn button1 btn-sm"
+                >
                   Read More
                 </a>
               </div>
