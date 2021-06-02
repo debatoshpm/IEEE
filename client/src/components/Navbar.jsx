@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-//import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import logo from "../assets/images/logo.png";
 import "./Navbar.css";
 class Navbar extends Component {
   render() {
     return (
       <header id="default_header" className="header_style_1">
-        {/* <!-- header top --> */}
         <div className="header_top">
           <div className="container">
             <div className="row">
@@ -47,9 +46,7 @@ class Navbar extends Component {
                           title="Facebook"
                           target="_blank"
                           rel="noreferrer"
-                        >
-                          {""}
-                        </a>
+                        ></a>
                       </li>
                       <li>
                         <a
@@ -58,9 +55,7 @@ class Navbar extends Component {
                           title="Google+"
                           target="_blank"
                           rel="noreferrer"
-                        >
-                          {""}
-                        </a>
+                        ></a>
                       </li>
                       <li>
                         <a
@@ -69,9 +64,7 @@ class Navbar extends Component {
                           title="Twitter"
                           target="_blank"
                           rel="noreferrer"
-                        >
-                          {""}
-                        </a>
+                        ></a>
                       </li>
                       <li>
                         <a
@@ -80,9 +73,7 @@ class Navbar extends Component {
                           title="LinkedIn"
                           target="_blank"
                           rel="noreferrer"
-                        >
-                          {""}
-                        </a>
+                        ></a>
                       </li>
                       <li>
                         <a
@@ -91,9 +82,7 @@ class Navbar extends Component {
                           title="Instagram"
                           target="_blank"
                           rel="noreferrer"
-                        >
-                          {""}
-                        </a>
+                        ></a>
                       </li>
                     </ul>
                   </div>
@@ -129,9 +118,9 @@ class Navbar extends Component {
                   <div id="navbar_menu">
                     <ul className="first-ul">
                       <li>
-                        <a className="active" href="https://www.google.com/">
+                        <Link className="active" to="/">
                           Home
-                        </a>
+                        </Link>
                       </li>
                       <li>
                         <a href="https://www.google.com/">About Us</a>
@@ -162,7 +151,7 @@ class Navbar extends Component {
                         </ul>
                       </li>
                       <li>
-                        <a href="https://www.google.com/">Contact</a>
+                        <Link to="/contact">Contact</Link>
                       </li>
                       <li>
                         <a href="https://www.google.com/">
@@ -186,14 +175,11 @@ class Navbar extends Component {
                     </ul>
                   </div>
                 </div>
-                {/* <!-- menu end --> */}
               </div>
             </div>
           </div>
         </div>
-        {/* <!-- header bottom end --> */}
       </header>
-      // <!-- end header -->
     );
   }
 }

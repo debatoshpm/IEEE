@@ -12,7 +12,7 @@ class Contact extends Component {
               <div className="col-md-6">
                 <div className="google-map">
                   <iframe
-                    frameborder="0"
+                    frameBorder="0"
                     className="border-0 map"
                     title="College"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.746472949955!2d88.41274391495783!3d22.476159585232413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02722b05a38e87%3A0x276c0d30e6be12ea!2sNetaji%20Subhash%20Engineering%20College!5e0!3m2!1sen!2sin!4v1601559708914!5m2!1sen!2sin"
@@ -25,7 +25,7 @@ class Contact extends Component {
                 <div>
                   <div className="pb-3">
                     <span className="h2">
-                      <i class="far fa-envelope"></i>
+                      <i className="far fa-envelope"></i>
                     </span>
                     <span className="h4">Don't hesitate to contact us</span>
                   </div>
