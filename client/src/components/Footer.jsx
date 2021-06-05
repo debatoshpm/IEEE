@@ -19,7 +19,10 @@ class Footer extends Component {
                   <h5 className="widget-title">
                     NSEC IEEE<span></span>
                   </h5>
-                  <p>Amra ekai onek, beshi kotha bolte esho na. </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Atque, nulla.
+                  </p>
                 </div>
               </div>
 

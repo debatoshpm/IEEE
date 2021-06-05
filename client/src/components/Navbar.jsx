@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from "../assets/images/logo.png";
 import "./Navbar.css";
 class Navbar extends Component {
@@ -46,7 +46,9 @@ class Navbar extends Component {
                           title="Facebook"
                           target="_blank"
                           rel="noreferrer"
-                        ></a>
+                        >
+                          {""}
+                        </a>
                       </li>
                       <li>
                         <a
@@ -55,7 +57,9 @@ class Navbar extends Component {
                           title="Google+"
                           target="_blank"
                           rel="noreferrer"
-                        ></a>
+                        >
+                          {""}
+                        </a>
                       </li>
                       <li>
                         <a
@@ -64,7 +68,9 @@ class Navbar extends Component {
                           title="Twitter"
                           target="_blank"
                           rel="noreferrer"
-                        ></a>
+                        >
+                          {""}
+                        </a>
                       </li>
                       <li>
                         <a
@@ -73,7 +79,9 @@ class Navbar extends Component {
                           title="LinkedIn"
                           target="_blank"
                           rel="noreferrer"
-                        ></a>
+                        >
+                          {""}
+                        </a>
                       </li>
                       <li>
                         <a
@@ -82,7 +90,9 @@ class Navbar extends Component {
                           title="Instagram"
                           target="_blank"
                           rel="noreferrer"
-                        ></a>
+                        >
+                          {""}
+                        </a>
                       </li>
                     </ul>
                   </div>
