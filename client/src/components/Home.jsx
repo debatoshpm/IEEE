@@ -566,7 +566,7 @@ class Home extends Component {
             </div>
             <div className="col-md-7 join-txt">
               <div className="card-block">
-                <p className="join-hd1">Let's Join Us!</p>
+                <p className="join-hd1">Join Us!</p>
                 <p className="join-hd2">Sign up today to get involved in the</p>
                 <p className="join-hd3">NSEC IEEE STUDENT BRANCH.</p>
                 <br />
