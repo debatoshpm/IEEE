@@ -88,15 +88,40 @@ class Footer extends Component {
               <div className="col-xs-12 col-sm-6 col-md-3">
                 <div className="widget no-box">
                   <h5 className="widget-title">
-                    Now available in Mobile<span></span>
+                    Out Societies<span></span>
                   </h5>
-                  <p>We also have our very own app</p>
-                  <a className="btn button1" href="#." target="_blank">
-                    Download Our App
-                  </a>
+                  <ul className="thumbnail-widget">
+                    <li>
+                      <div className="thumb-content">
+                        <Link to="/" onClick={this.scroll}>
+                          Society 1
+                        </Link>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="thumb-content">
+                        <Link to="/blog" onClick={this.scroll}>
+                          Society 2
+                        </Link>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="thumb-content">
+                        <Link to="/events" onClick={this.scroll}>
+                          Society 3
+                        </Link>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="thumb-content">
+                        <Link to="/faculty" onClick={this.scroll}>
+                          Society 4
+                        </Link>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
               </div>
-
               <div className="col-xs-12 col-sm-6 col-md-3">
                 <div className="widget no-box">
                   <h5 className="widget-title">

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Revolution from "./Revolution";
 import "./Home.css";
 import logo from "../assets/images/logo.png";
 import benefit from "../assets/images/benefit.png";
@@ -15,6 +16,7 @@ class Home extends Component {
   render() {
     return (
       <React.Fragment>
+        <Revolution />
         {/* <!-- section --> */}
         <div className="section padding_layout_1">
           <div className="container">

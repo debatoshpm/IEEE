@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import slide1 from "../assets/images/slide1.png";
-import slide2 from "../assets/images/slide2.jpg";
+import slide2 from "../assets/images/slide2.png";
 import slide3 from "../assets/images/slide3.png";
+
 class Revolution extends Component {
   state = {};
   render() {

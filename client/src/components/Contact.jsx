@@ -21,13 +21,16 @@ class Contact extends Component {
                 </div>
               </div>
               <div className="col-md-6">
-                <p className="pb-3 h1 font-weight-light">Question?</p>
+                <p className="pb-3 h1 font-weight-light text-dark">Question?</p>
                 <div>
                   <div className="pb-3">
                     <span className="h2">
                       <i className="far fa-envelope"></i>
                     </span>
-                    <span className="h4">Don't hesitate to contact us</span>
+                    <span className="h3 text-dark">
+                      {" "}
+                      Don't hesitate to contact us
+                    </span>
                   </div>
                   <div className="pb-3">
                     <h5 className="">Ready for support and cooperation</h5>
