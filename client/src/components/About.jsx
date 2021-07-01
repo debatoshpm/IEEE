@@ -8,6 +8,7 @@ const About = () => {
     <React.Fragment>
       <div className="container">
         <img src={logo} className="mainStartHead" alt="" />
+        <br />
         <p className="about-head">About Us</p>
         <br />
         <br />
