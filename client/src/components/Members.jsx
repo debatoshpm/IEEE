@@ -1,11 +1,11 @@
 import React from "react";
-import Error from "./Error";
 
 const Members = () => {
   return (
-    <React.Fragment>
-      <Error />
-    </React.Fragment>
+    <div className="cardLayout col-md-2 mb-3 p-2 pl-4">
+      <p className="mb-0 about-text">Lorem Ipsum</p>
+      <p className="mb-0 about-text">Lorem Ipsum</p>
+    </div>
   );
 };
 

@@ -18,7 +18,7 @@ class Home extends Component {
       <React.Fragment>
         <Revolution />
         {/* <!-- section --> */}
-        <div className="section padding_layout_1">
+        <div className="section p-3">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
@@ -245,7 +245,7 @@ class Home extends Component {
         </div>
         {/* <!-- end section --> */}
         {/* <!-- section --> */}
-        <div className="section padding_layout_1 light_silver gross_layout">
+        <div className="section p-3 light_silver gross_layout">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
@@ -354,7 +354,7 @@ class Home extends Component {
         </div>
         {/* <!-- end section --> */}
         {/* <!-- section --> */}
-        <div className="section padding_layout_1">
+        <div className="section p-3">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
@@ -473,7 +473,7 @@ class Home extends Component {
         {/* <!-- end section --> */}
 
         {/* <!-- News Section --> */}
-        <div className="section padding_layout_1">
+        <div className="section p-3">
           <div className="container">
             <div className="row">
               <div className="col-md-12">

@@ -1,0 +1,8 @@
+.cardLayout:hover {
+  background-color: lightgray;
+}
+
+.cardLayout {
+  line-height: 1.2;
+  font-size: large;
+}

@@ -2,10 +2,34 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/images/logo.png";
 import "./Navbar.css";
+
+const onClick = (e) => {
+  e.preventDefault();
+};
+
+const myFunction = () => {
+  console.log("Test");
+  var x = document.getElementById("myTopnav");
+  if (x.className === "first-ul") {
+    x.className += " open";
+    x.setAttribute("style", "display: block !important");
+  } else {
+    x.className = "first-ul";
+    x.setAttribute("style", "display: none !important");
+  }
+};
+
 const Navbar = () => {
   const location = useLocation();
   const { pathname } = location;
   const splitLocation = pathname.split("/");
+  let navcheck = "";
+  if (document.getElementById("myTopnav")) {
+    navcheck = document.getElementById("myTopnav").className;
+  } else {
+    navcheck = "first-ul";
+  }
+
   return (
     <header id="default_header" className="header_style_1">
       <div className="header_top">
@@ -115,16 +139,16 @@ const Navbar = () => {
           <div className="row">
             <div className="col-lg-3 col-md-12 col-sm-12 col-xs-12">
               <div className="logo">
-                <Link to="/error">
+                <a className={splitLocation[1] === "" ? "active" : ""} href="/">
                   <img src={logo} alt="logo" />
-                </Link>
+                </a>
               </div>
             </div>
             <div className="col-lg-9 col-md-12 col-sm-12 col-xs-12">
               <div className="menu_side">
                 <div id="navbar_menu">
-                  <ul className="first-ul">
-                    <li>
+                  <ul className="first-ul" id="myTopnav">
+                    <li className="opening">
                       <a
                         className={splitLocation[1] === "" ? "active" : ""}
                         href="/"
@@ -132,7 +156,7 @@ const Navbar = () => {
                         Home
                       </a>
                     </li>
-                    <li>
+                    <li className="opening">
                       <Link
                         className={splitLocation[1] === "about" ? "active" : ""}
                         to="/about"
@@ -140,7 +164,7 @@ const Navbar = () => {
                         About Us
                       </Link>
                     </li>
-                    <li>
+                    <li className="opening">
                       <Link
                         className={splitLocation[1] === "news" ? "active" : ""}
                         to="/news"
@@ -148,21 +172,23 @@ const Navbar = () => {
                         News
                       </Link>
                     </li>
-                    <li>
-                      <Link to="/error">Societies</Link>
+                    <li className="opening">
+                      <a href="/#" onClick={onClick}>
+                        Societies
+                      </a>
                       <ul>
-                        <li>
-                          <Link to="/error">Drop Down 1</Link>
+                        <li className="opening2">
+                          <Link to="/society1">Society 1</Link>
                         </li>
-                        <li>
-                          <Link to="/error">Drop Down 2</Link>
+                        <li className="opening2">
+                          <Link to="/error">Society 2</Link>
                         </li>
-                        <li>
-                          <Link to="/error">Drop Down 3</Link>
+                        <li className="opening2">
+                          <Link to="/error">Society 3</Link>
                         </li>
                       </ul>
                     </li>
-                    <li>
+                    <li className="opening">
                       <Link
                         className={
                           splitLocation[1] === "contact" ? "active" : ""
@@ -172,27 +198,27 @@ const Navbar = () => {
                         Contact
                       </Link>
                     </li>
-                    <li>
+                    <li className="opening">
                       <Link to="/error">
-                        <i className="fa fa-moon-o" aria-hidden="true"></i>
-                        Mode
+                        <i
+                          className="fa fa-moon-o"
+                          style={{ display: "inline" }}
+                        ></i>
+                        &nbsp; Mode
                       </Link>
                     </li>
                   </ul>
                 </div>
-                <div className="search_icon">
-                  <ul>
-                    <li>
-                      <a
-                        href="/#"
-                        data-toggle="modal"
-                        data-target="#search_bar"
-                      >
-                        <i className="fa fa-search" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+                <a href="/#" className="icon" onClick={myFunction}>
+                  <i
+                    className={
+                      navcheck === "first-ul open"
+                        ? "fas fa-chevron-up"
+                        : "fas fa-chevron-down"
+                    }
+                    id="icon-id"
+                  ></i>
+                </a>
               </div>
             </div>
           </div>
