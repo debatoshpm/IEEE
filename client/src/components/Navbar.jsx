@@ -7,15 +7,17 @@ const onClick = (e) => {
   e.preventDefault();
 };
 
-const myFunction = () => {
-  console.log("Test");
+const myFunction = (e) => {
+  e.preventDefault();
   var x = document.getElementById("myTopnav");
   if (x.className === "first-ul") {
     x.className += " open";
     x.setAttribute("style", "display: block !important");
+    document.getElementById("icon-id").className = "fas fa-chevron-up";
   } else {
     x.className = "first-ul";
     x.setAttribute("style", "display: none !important");
+    document.getElementById("icon-id").className = "fas fa-chevron-down";
   }
 };
 
@@ -23,12 +25,6 @@ const Navbar = () => {
   const location = useLocation();
   const { pathname } = location;
   const splitLocation = pathname.split("/");
-  let navcheck = "";
-  if (document.getElementById("myTopnav")) {
-    navcheck = document.getElementById("myTopnav").className;
-  } else {
-    navcheck = "first-ul";
-  }
 
   return (
     <header id="default_header" className="header_style_1">
@@ -221,15 +217,8 @@ const Navbar = () => {
                     </li>
                   </ul>
                 </div>
-                <a href className="icon" onClick={myFunction}>
-                  <i
-                    className={
-                      navcheck === "first-ul open"
-                        ? "fas fa-chevron-up"
-                        : "fas fa-chevron-down"
-                    }
-                    id="icon-id"
-                  ></i>
+                <a href="/#" className="icon" onClick={myFunction}>
+                  <i className="fas fa-chevron-down" id="icon-id"></i>
                 </a>
               </div>
             </div>
