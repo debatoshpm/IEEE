@@ -221,7 +221,7 @@ const Navbar = () => {
                     </li>
                   </ul>
                 </div>
-                <a href="/#" className="icon" onClick={myFunction}>
+                <a href className="icon" onClick={myFunction}>
                   <i
                     className={
                       navcheck === "first-ul open"
