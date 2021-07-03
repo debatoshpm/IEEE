@@ -1,0 +1,61 @@
+.publication-head {
+  font-size: 200%;
+  font-weight: bolder;
+  color: black;
+  text-align: center;
+}
+
+.nav-tab ul {
+  list-style: none;
+  font-size: 0;
+}
+.nav-tab ul li {
+  text-align: center;
+}
+.nav-tab ul li button {
+  background-color: transparent;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 1px solid #ececec;
+  color: #797979;
+  height: 5rem;
+  outline: 0;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.12s;
+  width: 100%;
+}
+.nav-tab ul li button.tab-current,
+.nav-tab ul li button:hover {
+  border-bottom: 1px solid #1976d2;
+  color: #1976d2;
+  padding-bottom: 1.5rem;
+  position: relative;
+}
+.content-tab {
+  display: none;
+  padding: 3rem 0;
+  animation: fadeIn 0.15s linear;
+}
+.current-content-tab {
+  display: block;
+}
+.content-tab p,
+.content-tab strong {
+  display: block;
+  margin: 2rem 0;
+}
+.content-tab ul li,
+.content-tab ol li {
+  list-style-position: inside;
+  margin: 1rem 2rem;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

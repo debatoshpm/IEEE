@@ -191,6 +191,16 @@ const Navbar = () => {
                     <li className="opening">
                       <Link
                         className={
+                          splitLocation[1] === "publication" ? "active" : ""
+                        }
+                        to="/publication"
+                      >
+                        Publications
+                      </Link>
+                    </li>
+                    <li className="opening">
+                      <Link
+                        className={
                           splitLocation[1] === "contact" ? "active" : ""
                         }
                         to="/contact"

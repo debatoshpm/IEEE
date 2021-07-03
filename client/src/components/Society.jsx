@@ -2,6 +2,7 @@ import React from "react";
 import slide2 from "../assets/images/slide2.png";
 import "./Society.css";
 import Members from "./Members";
+import Join from "./Join";
 
 const Society = () => {
   return (
@@ -50,7 +51,7 @@ const Society = () => {
         </p>
         <br />
         <br />
-        <p className="about-head2">Join Us</p>
+        <p className="about-head2">Why join Us?</p>
         <br />
         <br />
         <p className="about-text">
@@ -81,6 +82,11 @@ const Society = () => {
           <Members />
           <Members />
         </div>
+        <br />
+        <br />
+        <Join />
+        <br />
+        <br />
       </div>
     </React.Fragment>
   );

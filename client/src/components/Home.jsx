@@ -7,17 +7,16 @@ import events1 from "../assets/images/events1.png";
 import events2 from "../assets/images/events2.jpeg";
 import events3 from "../assets/images/events3.jpg";
 import events4 from "../assets/images/events4.jpg";
-import join from "../assets/images/join.png";
 import news1 from "../assets/images/news1.png";
 import news2 from "../assets/images/news2.png";
 import news3 from "../assets/images/news3.png";
+import Join from "./Join";
 class Home extends Component {
   state = {};
   render() {
     return (
       <React.Fragment>
         <Revolution />
-        {/* <!-- section --> */}
         <div className="section p-3">
           <div className="container">
             <div className="row">
@@ -243,8 +242,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        {/* <!-- end section --> */}
-        {/* <!-- section --> */}
+
         <div className="section p-3 light_silver gross_layout">
           <div className="container">
             <div className="row">
@@ -352,8 +350,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        {/* <!-- end section --> */}
-        {/* <!-- section --> */}
+
         <div className="section p-3">
           <div className="container">
             <div className="row">
@@ -470,9 +467,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        {/* <!-- end section --> */}
 
-        {/* <!-- News Section --> */}
         <div className="section p-3">
           <div className="container">
             <div className="row">
@@ -557,32 +552,9 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        {/* <!-- end section --> */}
         <br />
         <br />
-        {/* <!-- Modal --> */}
-        <div className="container card">
-          <div className="row">
-            <div className="col-md-5 pt-2 pb-2 join-img">
-              <img className="d-block w-100" src={join} alt="" />
-            </div>
-            <div className="col-md-7 join-txt">
-              <div className="card-block">
-                <p className="join-hd1">Join Us!</p>
-                <p className="join-hd2">Sign up today to get involved in the</p>
-                <p className="join-hd3">NSEC IEEE STUDENT BRANCH.</p>
-                <br />
-                <a
-                  href="https://www.google.com/"
-                  className="btn button1 btn-sm"
-                >
-                  Read More
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* <!-- End Model search bar --> */}
+        <Join />
         <br />
         <br />
       </React.Fragment>

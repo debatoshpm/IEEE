@@ -8,6 +8,7 @@ import News from "./components/News";
 import Contact from "./components/Contact";
 import Society from "./components/Society";
 import Members from "./components/Members";
+import Publication from "./components/Publication";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/news" component={News} />
           <Route exact path="/society1" component={Society} />
           <Route exact path="/society1/member" component={Members} />
+          <Route exact path="/publication" component={Publication} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/error" component={Error} />
         </Switch>
