@@ -166,10 +166,12 @@ const Navbar = () => {
                     </li>
                     <li className="opening">
                       <Link
-                        className={splitLocation[1] === "news" ? "active" : ""}
-                        to="/news"
+                        className={
+                          splitLocation[1] === "events" ? "active" : ""
+                        }
+                        to="/events"
                       >
-                        News
+                        Events
                       </Link>
                     </li>
                     <li className="opening">

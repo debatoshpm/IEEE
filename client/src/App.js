@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import About from "./components/About";
-import News from "./components/News";
+import Events from "./components/Events";
 import Contact from "./components/Contact";
 import Society from "./components/Society";
 import Members from "./components/Members";
@@ -21,7 +21,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
-          <Route exact path="/news" component={News} />
+          <Route exact path="/events" component={Events} />
           <Route exact path="/society1" component={Society} />
           <Route exact path="/society1/member" component={Members} />
           <Route exact path="/publication" component={Publication} />

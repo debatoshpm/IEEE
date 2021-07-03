@@ -81,19 +81,19 @@ const Publication = () => {
 
         <div className="m-3">
           <section className="current-content-tab" id="tab-1">
-            <p>Coming Soon - 1</p>
+            <p className="text-center">Coming Soon</p>
           </section>
 
           <section className="content-tab" id="tab-2">
-            <p>Coming Soon - 2</p>
+            <p className="text-center">Coming Soon</p>
           </section>
 
           <section className="content-tab" id="tab-3">
-            <p>Coming Soon - 3</p>
+            <p className="text-center">Coming Soon</p>
           </section>
 
           <section className="content-tab" id="tab-4">
-            <p>Coming Soon - 4</p>
+            <p className="text-center">Coming Soon</p>
           </section>
         </div>
       </div>
