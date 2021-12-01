@@ -40,7 +40,7 @@ const Navbar = () => {
                         <i className="fa  fa-home"></i>
                       </span>
                       <span className="topbar-hightlight">
-                        Lorem Ipsum New York, AB 90218
+                        Mauza Ranabhutia, Garia, Kolkata, West Bengal 700152
                       </span>
                     </li>
                     <li>
@@ -48,9 +48,7 @@ const Navbar = () => {
                         <i className="fa fa-envelope-o"></i>
                       </span>
                       <span className="topbar-hightlight">
-                        <a href="mailto:info@yourdomain.com">
-                          info@yourdomain.com
-                        </a>
+                        <a href="mailto:info@nsec.ac.in">info@nsec.ac.in</a>
                       </span>
                     </li>
                   </ul>
