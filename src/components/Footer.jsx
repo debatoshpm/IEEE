@@ -123,7 +123,7 @@ class Footer extends Component {
                 </div>
               </div>
               <div className="col-xs-12 col-sm-6 col-md-3">
-                <div className="widget no-box">
+                <div className="widget no-box" style={{ marginBottom: "20px" }}>
                   <h5 className="widget-title">
                     Contact Us<span></span>
                   </h5>
@@ -153,6 +153,10 @@ class Footer extends Component {
                   </ul>
                 </div>
               </div>
+            </div>
+            <div style={{ textAlign: "center" }}>
+              Made by
+              <a href="https://debatoshpm.github.io/"> Debatosh Pal Majumder</a>
             </div>
           </div>
         </div>

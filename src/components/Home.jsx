@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import Revolution from "./Revolution";
 import "./Home.css";
-import benefit from "../assets/images/benefit.png";
+import benefit1 from "../assets/images/up2date.png";
+import benefit2 from "../assets/images/network.png";
+import benefit3 from "../assets/images/exchange.png";
+import benefit4 from "../assets/images/cv.png";
 import events1 from "../assets/images/events1.png";
 import events2 from "../assets/images/events2.jpeg";
 import events3 from "../assets/images/events3.jpg";
@@ -10,6 +13,8 @@ import news1 from "../assets/images/news1.png";
 import news2 from "../assets/images/news2.png";
 import news3 from "../assets/images/news3.png";
 import Join from "./Join";
+import { Link } from "react-router-dom";
+
 class Home extends Component {
   handleClick = (id) => (e) => {
     e.preventDefault();
@@ -41,8 +46,9 @@ class Home extends Component {
                   <div className="main_heading text_align_center">
                     <h2>Benefits of Joining Us</h2>
                     <p className="large">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Nulla, in.
+                      The main benefit of IEEE membership is connecting with
+                      people from around the world, opening our social and
+                      cultural possibilities.
                     </p>
                   </div>
                 </div>
@@ -53,44 +59,46 @@ class Home extends Component {
                 <div className="full text_align_center margin_bottom_30">
                   <div className="center">
                     <div className="icon">
-                      <img src={benefit} alt="#" />
+                      <img src={benefit1} alt="#" />
                     </div>
                   </div>
-                  <h4 className="theme_color">Benefit 1</h4>
-                  <p>Perspiciatis eos quos totam cum minima aut!</p>
+                  <h4 className="theme_color">STAY UP-TO-DATE</h4>
+                  <p>Stay up to date on the latest technological innovations</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <div className="full text_align_center margin_bottom_30">
                   <div className="center">
                     <div className="icon">
-                      <img src={benefit} alt="#" />
+                      <img src={benefit2} alt="#" />
                     </div>
                   </div>
-                  <h4 className="theme_color">Benefit 2</h4>
-                  <p>Perspiciatis eos quos totam cum minima aut!</p>
+                  <h4 className="theme_color">Amazing Student Network</h4>
+                  <p>Meet students around the world</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <div className="full text_align_center margin_bottom_30">
                   <div className="center">
                     <div className="icon">
-                      <img src={benefit} alt="#" />
+                      <img src={benefit3} alt="#" />
                     </div>
                   </div>
-                  <h4 className="theme_color">Benefit 3</h4>
-                  <p>Perspiciatis eos quos totam cum minima aut!</p>
+                  <h4 className="theme_color">EXCHANGE INFORMATION</h4>
+                  <p>
+                    Exchange information with people expert in various fields
+                  </p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <div className="full text_align_center margin_bottom_30 margin_0">
                   <div className="center">
                     <div className="icon">
-                      <img src={benefit} alt="#" />
+                      <img src={benefit4} alt="#" />
                     </div>
                   </div>
-                  <h4 className="theme_color">Benefit 4</h4>
-                  <p>Perspiciatis eos quos totam cum minima aut!</p>
+                  <h4 className="theme_color">Boosts Your CV</h4>
+                  <p>Being an Ieee Member you can enhance your CV </p>
                 </div>
               </div>
             </div>
@@ -112,7 +120,8 @@ class Home extends Component {
                                 href="/#"
                               >
                                 <i className="fa fa-star"></i>
-                                Benefit 1<i className="fa fa-angle-down"></i>
+                                STAY UP-TO-DATE
+                                <i className="fa fa-angle-down"></i>
                               </a>
                             </p>
                           </div>
@@ -122,15 +131,11 @@ class Home extends Component {
                           >
                             <div className="panel-body">
                               <p>
-                                Contrary to popular belief, Lorem Ipsum is not
-                                simply random text. It has roots in a piece of
-                                classical Latin literature from 45 BC, making it
-                                over 2000 years old. Richard McClintock, a Latin
-                                professor at Hampden-Sydney College in Virginia,
-                                looked up one of the more obscure Latin words,
-                                consectetur, from a Lorem Ipsum passage, and
-                                going through the cites of the word in classical
-                                literature, discovered the undoubtable source.
+                                Stay up to date on the latest technological
+                                innovations with IEEE publications and products
+                                (ie IEEE xplore Magiazine).As IEEE is the
+                                world's leading resource for technological
+                                innovation and professional networking .
                               </p>
                             </div>
                           </div>
@@ -146,7 +151,8 @@ class Home extends Component {
                                 aria-expanded="false"
                                 href="/#"
                               >
-                                <i className="fa fa-star"></i>Benefit 2
+                                <i className="fa fa-star"></i>Amazing Student
+                                Network
                                 <i className="fa fa-angle-down"></i>
                               </a>
                             </p>
@@ -157,15 +163,11 @@ class Home extends Component {
                           >
                             <div className="panel-body">
                               <p>
-                                Contrary to popular belief, Lorem Ipsum is not
-                                simply random text. It has roots in a piece of
-                                classical Latin literature from 45 BC, making it
-                                over 2000 years old. Richard McClintock, a Latin
-                                professor at Hampden-Sydney College in Virginia,
-                                looked up one of the more obscure Latin words,
-                                consectetur, from a Lorem Ipsum passage, and
-                                going through the cites of the word in classical
-                                literature, discovered the undoubtable source.
+                                Get exposed to lot of talented people in various
+                                fields and not just your own. Meet People,
+                                organize Events,Publish papers & Gain both
+                                Knowledge & Recogniotion, join Special Interest
+                                Groups.
                               </p>
                             </div>
                           </div>
@@ -181,7 +183,8 @@ class Home extends Component {
                                 aria-expanded="false"
                                 href="/#"
                               >
-                                <i className="fa fa-star"></i>Benefit 3
+                                <i className="fa fa-star"></i>EXCHANGE
+                                INFORMATION
                                 <i className="fa fa-angle-down"></i>
                               </a>
                             </p>
@@ -192,15 +195,10 @@ class Home extends Component {
                           >
                             <div className="panel-body">
                               <p>
-                                Contrary to popular belief, Lorem Ipsum is not
-                                simply random text. It has roots in a piece of
-                                classical Latin literature from 45 BC, making it
-                                over 2000 years old. Richard McClintock, a Latin
-                                professor at Hampden-Sydney College in Virginia,
-                                looked up one of the more obscure Latin words,
-                                consectetur, from a Lorem Ipsum passage, and
-                                going through the cites of the word in classical
-                                literature, discovered the undoubtable source.
+                                Interact with leaders in your area of expertise.
+                                As an IEEE member, you can attend any of more
+                                than 300 major IEEE technical conferences and
+                                6,000 IEEE meetings.
                               </p>
                             </div>
                           </div>
@@ -217,7 +215,8 @@ class Home extends Component {
                                 href="/#"
                               >
                                 <i className="fa fa-star"></i>
-                                Benefit 4<i className="fa fa-angle-down"></i>
+                                Boosts Your CV
+                                <i className="fa fa-angle-down"></i>
                               </a>
                             </p>
                           </div>
@@ -227,15 +226,10 @@ class Home extends Component {
                           >
                             <div className="panel-body">
                               <p>
-                                Contrary to popular belief, Lorem Ipsum is not
-                                simply random text. It has roots in a piece of
-                                classical Latin literature from 45 BC, making it
-                                over 2000 years old. Richard McClintock, a Latin
-                                professor at Hampden-Sydney College in Virginia,
-                                looked up one of the more obscure Latin words,
-                                consectetur, from a Lorem Ipsum passage, and
-                                going through the cites of the word in classical
-                                literature, discovered the undoubtable source.
+                                Being an Ieee Member can turn your recruitment
+                                potential into an employment fact an IEEE
+                                appreciation Certificate definitely adds a plus
+                                point to your CV.
                               </p>
                             </div>
                           </div>
@@ -249,15 +243,17 @@ class Home extends Component {
                 <div className="full" style={{ marginTop: 35 + "px" }}>
                   <h3>About Us</h3>
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae ab illo inventore veritatis et
-                    quasi architecto beatae vitae dicta sunt explicabo..
+                    IEEE is the world's largest technical professional
+                    organization dedicated to advancing technology for the
+                    benefit of humanity. IEEE and its members inspire a global
+                    community through its highly cited publications,
+                    conferences, technology standards, and professional and
+                    educational activities.
                   </p>
                   <p>
-                    <a className="btn main_bt" href="https://www.google.com/">
+                    <Link className="btn main_bt" to="/about">
                       Read More
-                    </a>
+                    </Link>
                   </p>
                 </div>
               </div>
