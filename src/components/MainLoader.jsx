@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import loader from "../assets/images/loader.png";
+import "./MainLoader.css";
 
 class MainLoader extends Component {
   state = {};

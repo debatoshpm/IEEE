@@ -119,9 +119,12 @@ const Navbar = () => {
               </div>
               <div className="float-right">
                 <div className="make_appo">
-                  <Link className="btn white_btn" to="/error">
+                  <a
+                    className="btn white_btn"
+                    href="https://www.ieee.org/membership/join/index.html"
+                  >
                     Join IEEE
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
@@ -174,13 +177,13 @@ const Navbar = () => {
                       </a>
                       <ul>
                         <li className="opening2">
-                          <Link to="/society1">Society 1</Link>
+                          <Link to="/society1">Computer Society</Link>
                         </li>
                         <li className="opening2">
-                          <Link to="/error">Society 2</Link>
+                          <Link to="/society2">Computer Intelligence</Link>
                         </li>
                         <li className="opening2">
-                          <Link to="/error">Society 3</Link>
+                          <Link to="/society3">Robotics and Automation</Link>
                         </li>
                       </ul>
                     </li>

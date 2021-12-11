@@ -34,15 +34,15 @@ class Footer extends Component {
                   <ul className="thumbnail-widget">
                     <li>
                       <div className="thumb-content">
-                        <Link to="/" onClick={this.scroll}>
+                        <a href="/" onClick={this.scroll}>
                           Home
-                        </Link>
+                        </a>
                       </div>
                     </li>
                     <li>
                       <div className="thumb-content">
-                        <Link to="/blog" onClick={this.scroll}>
-                          Blog
+                        <Link to="/about" onClick={this.scroll}>
+                          About
                         </Link>
                       </div>
                     </li>
@@ -55,22 +55,8 @@ class Footer extends Component {
                     </li>
                     <li>
                       <div className="thumb-content">
-                        <Link to="/faculty" onClick={this.scroll}>
-                          Faculty
-                        </Link>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="thumb-content">
-                        <Link to="/team" onClick={this.scroll}>
-                          Team
-                        </Link>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="thumb-content">
-                        <Link to="/history" onClick={this.scroll}>
-                          History
+                        <Link to="/publication" onClick={this.scroll}>
+                          Publications
                         </Link>
                       </div>
                     </li>
@@ -93,29 +79,43 @@ class Footer extends Component {
                   <ul className="thumbnail-widget">
                     <li>
                       <div className="thumb-content">
+                        <Link to="/society1" onClick={this.scroll}>
+                          Computer Society
+                        </Link>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="thumb-content">
+                        <Link to="/society2" onClick={this.scroll}>
+                          Computer Intelligence
+                        </Link>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="thumb-content">
+                        <Link to="/society3" onClick={this.scroll}>
+                          Robotics and Automation
+                        </Link>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="thumb-content">
+                        <Link to="/error" onClick={this.scroll}>
+                          Electron Devices
+                        </Link>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="thumb-content">
+                        <Link to="/error" onClick={this.scroll}>
+                          Power Electronics
+                        </Link>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="thumb-content">
                         <Link to="/" onClick={this.scroll}>
-                          Society 1
-                        </Link>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="thumb-content">
-                        <Link to="/blog" onClick={this.scroll}>
-                          Society 2
-                        </Link>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="thumb-content">
-                        <Link to="/events" onClick={this.scroll}>
-                          Society 3
-                        </Link>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="thumb-content">
-                        <Link to="/faculty" onClick={this.scroll}>
-                          Society 4
+                          Antennas and Propagation
                         </Link>
                       </div>
                     </li>

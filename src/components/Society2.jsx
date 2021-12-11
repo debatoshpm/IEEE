@@ -1,5 +1,5 @@
 import React from "react";
-import slide2 from "../assets/images/slide2.png";
+import slide1 from "../assets/images/slide1.png";
 import "./Society.css";
 import Members from "./Members";
 import Join from "./Join";
@@ -8,19 +8,18 @@ const Society = () => {
   return (
     <React.Fragment>
       <div className="container">
-        <img src={slide2} className="mainStartHead" alt="" />
+        <img src={slide1} className="mainStartHead" alt="" />
         <br />
-        <p className="about-head">Computer Society</p>
+        <p className="about-head">Computer Intelligence Society</p>
         <br />
         <br />
         <p className="about-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-          omnis cupiditate molestias? Sint dicta ducimus natus molestiae
-          voluptatibus molestias temporibus asperiores ad sunt, quis alias
-          cumque id veniam aspernatur sequi aut recusandae? Nam, facere vitae
-          nobis placeat nihil voluptas? Reiciendis consequuntur porro quam nemo
-          aliquam at soluta eius harum quisquam ipsam, voluptates consequatur,
-          unde illo. Quod autem voluptas eligendi est.
+          We Are the Home for Computer Science and Engineering Leaders The IEEE
+          Computer Society is the premier source for information, inspiration,
+          and collaboration in computer science and engineering. Connecting
+          members worldwide, the Computer Society empowers the people who
+          advance technology by delivering tools for individuals at all stages
+          of their professional careers.
         </p>
         <p className="about-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis

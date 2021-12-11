@@ -6,6 +6,7 @@
   .icon {
     float: right;
     display: block;
+    margin-bottom: 10px;
   }
   #myTopnav {
     display: none !important;

@@ -1,6 +1,5 @@
 import React from "react";
 import errorImg from "../assets/images/errorImg.png";
-import { Link } from "react-router-dom";
 
 const Error = () => {
   return (
@@ -16,9 +15,9 @@ const Error = () => {
                 <h2>OOOPS, THIS PAGE COULD NOT BE FOUND!</h2>
               </div>
               <div className="center">
-                <Link className="btn sqaure_bt light_theme_bt" to="/">
+                <a className="btn sqaure_bt light_theme_bt" href="/">
                   Back Home
-                </Link>
+                </a>
               </div>
             </div>
           </div>

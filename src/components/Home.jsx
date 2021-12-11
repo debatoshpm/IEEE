@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Revolution from "./Revolution";
 import "./Home.css";
-import logo from "../assets/images/logo.png";
 import benefit from "../assets/images/benefit.png";
 import events1 from "../assets/images/events1.png";
 import events2 from "../assets/images/events2.jpeg";
@@ -12,7 +11,24 @@ import news2 from "../assets/images/news2.png";
 import news3 from "../assets/images/news3.png";
 import Join from "./Join";
 class Home extends Component {
-  state = {};
+  handleClick = (id) => (e) => {
+    e.preventDefault();
+    document.getElementById("collapseOne").className =
+      "panel-collapse collapse";
+    document.getElementById("collapseTwo").className =
+      "panel-collapse collapse";
+    document.getElementById("collapseThree").className =
+      "panel-collapse collapse";
+    document.getElementById("collapseFour").className =
+      "panel-collapse collapse";
+    document.getElementById(id).className = "panel-collapse collapse show";
+    e.ariaExpanded = "true";
+    document.getElementById("#collapseOne").ariaExpanded = "false";
+    document.getElementById("#collapseTwo").ariaExpanded = "false";
+    document.getElementById("#collapseThree").ariaExpanded = "false";
+    document.getElementById("#collapseFour").ariaExpanded = "false";
+    document.getElementById(`#${id}`).ariaExpanded = "true";
+  };
   render() {
     return (
       <React.Fragment>
@@ -90,19 +106,19 @@ class Home extends Component {
                               <a
                                 data-toggle="collapse"
                                 data-parent="#accordion"
-                                href="#collapseOne"
+                                id="#collapseOne"
+                                onClick={this.handleClick("collapseOne")}
+                                aria-expanded="false"
+                                href="/#"
                               >
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
+                                <i className="fa fa-star"></i>
                                 Benefit 1<i className="fa fa-angle-down"></i>
                               </a>
                             </p>
                           </div>
                           <div
                             id="collapseOne"
-                            className="panel-collapse collapse in"
+                            className="panel-collapse collapse"
                           >
                             <div className="panel-body">
                               <p>
@@ -125,7 +141,10 @@ class Home extends Component {
                               <a
                                 data-toggle="collapse"
                                 data-parent="#accordion"
-                                href="#collapseTwo"
+                                id="#collapseTwo"
+                                onClick={this.handleClick("collapseTwo")}
+                                aria-expanded="false"
+                                href="/#"
                               >
                                 <i className="fa fa-star"></i>Benefit 2
                                 <i className="fa fa-angle-down"></i>
@@ -157,7 +176,10 @@ class Home extends Component {
                               <a
                                 data-toggle="collapse"
                                 data-parent="#accordion"
-                                href="#collapseThree"
+                                id="#collapseThree"
+                                onClick={this.handleClick("collapseThree")}
+                                aria-expanded="false"
+                                href="/#"
                               >
                                 <i className="fa fa-star"></i>Benefit 3
                                 <i className="fa fa-angle-down"></i>
@@ -189,19 +211,19 @@ class Home extends Component {
                               <a
                                 data-toggle="collapse"
                                 data-parent="#accordion"
-                                href="#collapseFour"
+                                id="#collapseFour"
+                                onClick={this.handleClick("collapseFour")}
+                                aria-expanded="false"
+                                href="/#"
                               >
-                                <i
-                                  className="fa fa-star"
-                                  aria-hidden="true"
-                                ></i>
+                                <i className="fa fa-star"></i>
                                 Benefit 4<i className="fa fa-angle-down"></i>
                               </a>
                             </p>
                           </div>
                           <div
                             id="collapseFour"
-                            className="panel-collapse collapse in"
+                            className="panel-collapse collapse"
                           >
                             <div className="panel-body">
                               <p>
@@ -248,12 +270,9 @@ class Home extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="full">
-                  <div className="main_heading text_align_left">
+                  <div className="text_align_left">
                     <h2>IEEE Societies</h2>
-                    <p className="large">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eius, in.
-                    </p>
+                    <p className="large">Societies Available in NSEC</p>
                   </div>
                 </div>
               </div>
@@ -264,13 +283,11 @@ class Home extends Component {
                   <div className="col-md-4">
                     <div className="full">
                       <div className="service_blog_inner">
-                        <div className="icon text_align_left">
-                          <img src={logo} alt="#" />
-                        </div>
-                        <h4 className="service-heading">Society 1</h4>
+                        <h4 className="service-heading">Computer Society</h4>
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Magni maxime quasi enim omnis aliquid culpa?
+                          The IEEE Computer Society is the premier source for
+                          information, inspiration, and collaboration in
+                          computer science and engineering.
                         </p>
                       </div>
                     </div>
@@ -278,13 +295,13 @@ class Home extends Component {
                   <div className="col-md-4">
                     <div className="full">
                       <div className="service_blog_inner">
-                        <div className="icon text_align_left">
-                          <img src={logo} alt="#" />
-                        </div>
-                        <h4 className="service-heading">Society 2</h4>
+                        <h4 className="service-heading">
+                          Computer Intelligence
+                        </h4>
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Magni maxime quasi enim omnis aliquid culpa?
+                          Computational Intelligence (CI) is the theory, design,
+                          application and development of biologically and
+                          linguistically motivated computational paradigms.
                         </p>
                       </div>
                     </div>
@@ -292,13 +309,15 @@ class Home extends Component {
                   <div className="col-md-4">
                     <div className="full">
                       <div className="service_blog_inner">
-                        <div className="icon text_align_left">
-                          <img src={logo} alt="#" />
-                        </div>
-                        <h4 className="service-heading">Society 3</h4>
+                        <h4 className="service-heading">
+                          Robotics and Automation
+                        </h4>
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Magni maxime quasi enim omnis aliquid culpa?
+                          The IEEE Robotics and Automation Society is a
+                          professional society of the IEEE that supports the
+                          development and the exchange of scientific knowledge
+                          in the fields of robotics and automation, including
+                          applied and theoretical issues.
                         </p>
                       </div>
                     </div>
@@ -306,13 +325,13 @@ class Home extends Component {
                   <div className="col-md-4">
                     <div className="full">
                       <div className="service_blog_inner">
-                        <div className="icon text_align_left">
-                          <img src={logo} alt="#" />
-                        </div>
-                        <h4 className="service-heading">Society 4</h4>
+                        <h4 className="service-heading">Electron Devices</h4>
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Magni maxime quasi enim omnis aliquid culpa?
+                          To foster professional growth of its members by
+                          satisfying their needs for easy access to and exchange
+                          of technical information, publishing, education, and
+                          technical recognition and enhancing public visibility
+                          in the field of Electron Devices.
                         </p>
                       </div>
                     </div>
@@ -320,13 +339,12 @@ class Home extends Component {
                   <div className="col-md-4">
                     <div className="full">
                       <div className="service_blog_inner">
-                        <div className="icon text_align_left">
-                          <img src={logo} alt="#" />
-                        </div>
-                        <h4 className="service-heading">Society 5</h4>
+                        <h4 className="service-heading">Power Electronics</h4>
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Magni maxime quasi enim omnis aliquid culpa?
+                          The Power Electronics Society is one of the fastest
+                          growing technical societies of IEEE. For over 20
+                          years, PELS has facilitated and guided the development
+                          and innovation in power electronics technology.
                         </p>
                       </div>
                     </div>
@@ -334,13 +352,15 @@ class Home extends Component {
                   <div className="col-md-4">
                     <div className="full">
                       <div className="service_blog_inner">
-                        <div className="icon text_align_left">
-                          <img src={logo} alt="#" />
-                        </div>
-                        <h4 className="service-heading">Society 6</h4>
+                        <h4 className="service-heading">
+                          Antennas and Propagation
+                        </h4>
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Magni maxime quasi enim omnis aliquid culpa?
+                          The field of interest of the APS includes antennas,
+                          including analysis, design, development, measurement,
+                          and testing, radiation, propagation, and the
+                          interaction of electromagnetic waves with discrete and
+                          continuous media.
                         </p>
                       </div>
                     </div>

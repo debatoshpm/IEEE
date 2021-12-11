@@ -16,7 +16,10 @@ const Join = () => {
               <p className="join-hd2">Sign up today to get involved in the</p>
               <p className="join-hd3">NSEC IEEE STUDENT BRANCH.</p>
               <br />
-              <a href="https://www.google.com/" className="btn button1 btn-sm">
+              <a
+                href="https://www.ieee.org/membership/join/index.html"
+                className="btn button1 btn-sm"
+              >
                 Read More
               </a>
             </div>

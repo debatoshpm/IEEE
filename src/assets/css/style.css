@@ -2415,7 +2415,7 @@ span.skill {
   a[aria-expanded="true"]
   i.fa-angle-down,
 #accordion
-  .panel.panel-default:nth-child(1)
+  .panel.panel-default:nth-child(0)
   .panel-heading
   p
   a
