@@ -5,13 +5,13 @@ import benefit1 from "../assets/images/up2date.png";
 import benefit2 from "../assets/images/network.png";
 import benefit3 from "../assets/images/exchange.png";
 import benefit4 from "../assets/images/cv.png";
-import events1 from "../assets/images/events1.png";
+import events1 from "../assets/images/events1.jpg";
 import events2 from "../assets/images/events2.jpeg";
-import events3 from "../assets/images/events3.jpg";
-import events4 from "../assets/images/events4.jpg";
-import news1 from "../assets/images/news1.png";
+import events3 from "../assets/images/events3.png";
+import events4 from "../assets/images/events4.png";
+import news1 from "../assets/images/news1.jpg";
 import news2 from "../assets/images/news2.png";
-import news3 from "../assets/images/news3.png";
+import news3 from "../assets/images/news3.jpg";
 import Join from "./Join";
 import { Link } from "react-router-dom";
 
@@ -58,7 +58,7 @@ class Home extends Component {
               <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <div className="full text_align_center margin_bottom_30">
                   <div className="center">
-                    <div className="icon">
+                    <div className="iconH">
                       <img src={benefit1} alt="#" />
                     </div>
                   </div>
@@ -69,7 +69,7 @@ class Home extends Component {
               <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <div className="full text_align_center margin_bottom_30">
                   <div className="center">
-                    <div className="icon">
+                    <div className="iconH">
                       <img src={benefit2} alt="#" />
                     </div>
                   </div>
@@ -80,7 +80,7 @@ class Home extends Component {
               <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <div className="full text_align_center margin_bottom_30">
                   <div className="center">
-                    <div className="icon">
+                    <div className="iconH">
                       <img src={benefit3} alt="#" />
                     </div>
                   </div>
@@ -93,7 +93,7 @@ class Home extends Component {
               <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                 <div className="full text_align_center margin_bottom_30 margin_0">
                   <div className="center">
-                    <div className="icon">
+                    <div className="iconH">
                       <img src={benefit4} alt="#" />
                     </div>
                   </div>
@@ -389,17 +389,21 @@ class Home extends Component {
                     <div className="center">
                       <h4>
                         <a href="it_shop_detail.html">
-                          Lorem ipsum dolor sit amet.
+                          Quantum Mechanics to Quantum Computing
                         </a>
                       </h4>
                     </div>
                     <div className="starratin">
-                      <div className="center"> Lorem ipsum </div>
+                      <div className="center"> April 24, 2021 </div>
                     </div>
                     <div className="product_price">
                       <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Similique, explicabo.
+                        There are many misunderstandings and misconceptions
+                        about quantum physics and computing due to their
+                        complexity. the talk will present the history of quantum
+                        mechanics and quantum computation to improve the
+                        understanding of the subject starting from the
+                        double-slit experiment to the first quantum algorithm.
                       </p>
                     </div>
                   </div>
@@ -414,17 +418,17 @@ class Home extends Component {
                     <div className="center">
                       <h4>
                         <a href="it_shop_detail.html">
-                          Lorem ipsum dolor sit amet.
+                          IBM Quantum 101 and Qiskit Translation
                         </a>
                       </h4>
                     </div>
                     <div className="starratin">
-                      <div className="center"> Lorem ipsum </div>
+                      <div className="center"> April 10, 2021 </div>
                     </div>
                     <div className="product_price">
                       <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Similique, explicabo.
+                        Basics of Quantum Computing | Qiskit Translation Project
+                        by IBM | Hoow to contribute to the Quantum Community
                       </p>
                     </div>
                   </div>
@@ -438,18 +442,17 @@ class Home extends Component {
                   <div className="product_detail_btm">
                     <div className="center">
                       <h4>
-                        <a href="it_shop_detail.html">
-                          Lorem ipsum dolor sit amet.
-                        </a>
+                        <a href="it_shop_detail.html">Invited Guest Talk</a>
                       </h4>
                     </div>
                     <div className="starratin">
-                      <div className="center"> Lorem ipsum </div>
+                      <div className="center"> July 31 2021 </div>
                     </div>
                     <div className="product_price">
                       <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Similique, explicabo.
+                        Current Tools and Software used for Data Visualization
+                        and Data Science in Industry (Playing with pandas in
+                        python)
                       </p>
                     </div>
                   </div>
@@ -463,18 +466,19 @@ class Home extends Component {
                   <div className="product_detail_btm">
                     <div className="center">
                       <h4>
-                        <a href="it_shop_detail.html">
-                          Lorem ipsum dolor sit amet.
-                        </a>
+                        <a href="it_shop_detail.html">Lets Code Quantum</a>
                       </h4>
                     </div>
                     <div className="starratin">
-                      <div className="center"> Lorem ipsum </div>
+                      <div className="center"> April 17, 2021 </div>
                     </div>
                     <div className="product_price">
                       <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Similique, explicabo.
+                        The use of quantum mechanical principles to perform
+                        challenging computation tasks is called quantum
+                        computation. Quantuum phenomenon like entanglement and
+                        superposition makes it possible for low cot computation
+                        to happen.
                       </p>
                     </div>
                   </div>
@@ -503,18 +507,19 @@ class Home extends Component {
                   </div>
                   <div className="post_time">
                     <p>
-                      <i className="fa fa-clock-o"></i> April 16, 2018 ( In
-                      Maintenance )
+                      <i className="fa fa-clock-o"></i> December 13, 2021
                     </p>
                   </div>
                   <div className="blog_feature_head">
-                    <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                    <h4>Build Your Success Story</h4>
                   </div>
                   <div className="blog_feature_cont">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur quam justo,
-                      pretium adipiscing elit. Vestibulum quam justo, pretium eu
-                      tempus ut, ...
+                      Reach your full potential as part of the world’s largest
+                      technology community. Join professionals, experts, and
+                      advisors who can help shape your career, offer resources
+                      to acquire new skills, and advance your professional
+                      development.
                     </p>
                   </div>
                 </div>
@@ -526,18 +531,19 @@ class Home extends Component {
                   </div>
                   <div className="post_time">
                     <p>
-                      <i className="fa fa-clock-o"></i> April 16, 2018 ( In
-                      Maintenance )
+                      <i className="fa fa-clock-o"></i> December 13, 2021
                     </p>
                   </div>
                   <div className="blog_feature_head">
-                    <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                    <h4>IEEE Xplore</h4>
                   </div>
                   <div className="blog_feature_cont">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur quam justo,
-                      pretium adipiscing elit. Vestibulum quam justo, pretium eu
-                      tempus ut, ...
+                      IEEE Xplore digital library is a research database for
+                      discovery and access to journal articles, conference
+                      proceedings, technical standards, and related materials on
+                      computer science, electrical engineering and electronics,
+                      and allied fields.
                     </p>
                   </div>
                 </div>
@@ -549,18 +555,20 @@ class Home extends Component {
                   </div>
                   <div className="post_time">
                     <p>
-                      <i className="fa fa-clock-o"></i> April 16, 2018 ( In
-                      Maintenance )
+                      <i className="fa fa-clock-o"></i> December 13, 2021
                     </p>
                   </div>
                   <div className="blog_feature_head">
-                    <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                    <h4>IEEE Spectrum</h4>
                   </div>
                   <div className="blog_feature_cont">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur quam justo,
-                      pretium adipiscing elit. Vestibulum quam justo, pretium eu
-                      tempus ut, ...
+                      IEEE Spectrum is the flagship magazine and website of the
+                      IEEE, the world’s largest professional organization
+                      devoted to engineering and the applied sciences. Our
+                      charter is to keep over 400,000 members informed about
+                      major trends and developments in technology, engineering,
+                      and science.
                     </p>
                   </div>
                 </div>

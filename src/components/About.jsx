@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/images/logo.png";
 import "./About.css";
-import slide1 from "../assets/images/slide1.png";
+import slide1 from "../assets/images/slide1.jpg";
 import slide2 from "../assets/images/slide2.png";
 import slide3 from "../assets/images/slide3.png";
 
@@ -14,6 +14,20 @@ const About = () => {
         <p className="about-head">What is IEEE ?</p>
         <br />
         <br />
+        <p className="about-text">
+          IEEE is the world’s largest technical professional organization
+          dedicated to advancing technology for the benefit of humanity. IEEE
+          Student Branch of NSEC is a society affiliated to the IEEE and works
+          as one of its subsidiary branch organization. Its primary goal to
+          promote technological research and innovation among the students along
+          with hosting webinars , hands on workshops and competitive events open
+          to everyone to boost up their knowledge . It opens up new horizons to
+          all its members and helps networking with both Industrial
+          professionals and like minded academicians . IEEE Student Branch of
+          NSEC works towards technological advancement and well being of human
+          kind through its various subsidiary societies which themselves focus
+          on different aspects and fields .
+        </p>
         <p className="about-text">
           IEEE stands for Institute of Electrical and Electronics Engineers, is
           the world’s largest technical professional organization dedicated to
@@ -42,11 +56,14 @@ const About = () => {
           <div className="col-8">
             <p className="about-text">Computer Society</p>
             <p className="about-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
-              delectus. Deserunt, odio dolore. Adipisci officia sed molestiae!
-              Sint, similique sunt! Lorem ipsum dolor sit amet consectetur,
-              adipisicing elit. Esse nesciunt distinctio alias fugiat. Magnam
-              voluptas, quibusdam illum hic ab doloremque?
+              IEEE Computer Society (sometimes abbreviated the Computer Society
+              or CS) is a professional society of the Institute of Electrical
+              and Electronics Engineers (IEEE). Its purpose and scope is "to
+              advance the theory, practice, and application of computer and
+              information processing science and technology" and the
+              "professional standing of its members". The CS is the largest of
+              39 technical societies organized under the IEEE Technical
+              Activities Board.
             </p>
           </div>
           <div className="col-4">
@@ -61,12 +78,19 @@ const About = () => {
           <div className="col-8">
             <p className="about-text">Computer Intelligence Society</p>
             <p className="about-text">
-              We Are the Home for Computer Science and Engineering Leaders The
-              IEEE Computer Society is the premier source for information,
-              inspiration, and collaboration in computer science and
-              engineering. Connecting members worldwide, the Computer Society
-              empowers the people who advance technology by delivering tools for
-              individuals at all stages of their professional careers.
+              The IEEE Computational Intelligence Society is a professional
+              society of the Institute of Electrical and Electronics Engineers
+              (IEEE) focussing on "the theory, design, application, and
+              development of biologically and linguistically motivated
+              computational paradigms emphasizing neural networks, connectionist
+              systems, genetic algorithms, evolutionary programming, fuzzy
+              systems, and hybrid intelligent systems in which these paradigms
+              are contained".The society was formed as the IEEE Neural Networks
+              Council on November 17, 1989 with representatives from 12
+              different IEEE societies. On November 21, 2001, the IEEE Neural
+              Networks Council became the IEEE Neural Networks Society. In
+              November 2003, it changed its name to the IEEE Computational
+              Intelligence Society.
             </p>
           </div>
         </div>
@@ -76,11 +100,17 @@ const About = () => {
           <div className="col-8">
             <p className="about-text">Robotics Society</p>
             <p className="about-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
-              delectus. Deserunt, odio dolore. Adipisci officia sed molestiae!
-              Sint, similique sunt! Lorem ipsum dolor sit amet consectetur,
-              adipisicing elit. Esse nesciunt distinctio alias fugiat. Magnam
-              voluptas, quibusdam illum hic ab doloremque?
+              The IEEE Robotics and Automation Society (IEEE RAS) is a
+              professional society of the IEEE that supports the development and
+              the exchange of scientific knowledge in the fields of robotics and
+              automation, including applied and theoretical issues.The initial
+              IEEE Robotics and Automation (R&A) entity, the Robotics and
+              Automation Council, was founded in 1984 by a number of IEEE
+              Societies including Aerospace and Electronic Systems, Circuits and
+              Systems, Components, Hybrids, and Manufacturing Technology,
+              Computers, Control Systems, Industrial Electronics, Industry
+              Applications, and Systems, Man and Cybernetics. In 1987 the
+              council became the IEEE Robotics and Automation Society.
             </p>
           </div>
           <div className="col-4">

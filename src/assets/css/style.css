@@ -782,7 +782,7 @@ hr.dottad_border {
   margin-right: 0;
 }
 
-.icon img {
+.iconH img {
   width: 100px;
 }
 
@@ -3160,7 +3160,7 @@ span.skill {
 
 .product_list:hover .starratin,
 .product_list:focus .starratin {
-  height: 15px;
+  height: 18px;
   margin-bottom: 6px;
 }
 
