@@ -35,8 +35,8 @@ class Contact extends Component {
                   <div className="pb-3">
                     <h5 className="">Ready for support and cooperation</h5>
                     <p className="">
-                      Phone: +91 1234567890 <br />
-                      Email: email@gmail.com
+                      Phone: +91 86172 66615 <br />
+                      Email: neeladri.chattopadhyay@gmail.com
                     </p>
                   </div>
                 </div>

@@ -48,7 +48,9 @@ const Navbar = () => {
                         <i className="fa fa-envelope-o"></i>
                       </span>
                       <span className="topbar-hightlight">
-                        <a href="mailto:info@nsec.ac.in">info@nsec.ac.in</a>
+                        <a href="mailto:neeladri.chattopadhyay@gmail.com">
+                          neeladri.chattopadhyay@gmail.com
+                        </a>
                       </span>
                     </li>
                   </ul>

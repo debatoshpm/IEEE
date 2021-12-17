@@ -134,11 +134,11 @@ class Footer extends Component {
 
                   <p>
                     <a
-                      href="mailto:info@domain.com"
+                      href="mailto:neeladri.chattopadhyay@gmail.com"
                       title="glorythemes"
                       className="mail"
                     >
-                      info@domain.com
+                      neeladri.chattopadhyay@gmail.coom
                     </a>
                   </p>
                   <ul className="social-footer2">
@@ -161,7 +161,7 @@ class Footer extends Component {
             <div style={{ textAlign: "center" }}>
               Made by
               <a href="https://debatoshpm.github.io/"> Debatosh Pal Majumder</a>
-              , Neeladri Chatterjee, Suprodip Kundu
+              , Neeladri Chattopadhyay, Suprodip Kundu
             </div>
           </div>
         </div>
