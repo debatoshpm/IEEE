@@ -20,8 +20,12 @@ class Footer extends Component {
                     NSEC IEEE<span></span>
                   </h5>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Atque, nulla.
+                    IEEE is the world's largest technical professional
+                    organization dedicated to advancing technology for the
+                    benefit of humanity. IEEE and its members inspire a global
+                    community through its highly cited publications,
+                    conferences, technology standards, and professional and
+                    educational activities.
                   </p>
                 </div>
               </div>
@@ -157,6 +161,7 @@ class Footer extends Component {
             <div style={{ textAlign: "center" }}>
               Made by
               <a href="https://debatoshpm.github.io/"> Debatosh Pal Majumder</a>
+              , Neeladri Chatterjee, Suprodip Kundu
             </div>
           </div>
         </div>
