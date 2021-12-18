@@ -48,8 +48,8 @@ const Navbar = () => {
                         <i className="fa fa-envelope-o"></i>
                       </span>
                       <span className="topbar-hightlight">
-                        <a href="mailto:neeladri.chattopadhyay@gmail.com">
-                          neeladri.chattopadhyay@gmail.com
+                        <a href="mailto:neeladri.chattopadhyay@ieee.org">
+                          neeladri.chattopadhyay@ieee.org
                         </a>
                       </span>
                     </li>

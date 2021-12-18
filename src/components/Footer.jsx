@@ -134,11 +134,11 @@ class Footer extends Component {
 
                   <p>
                     <a
-                      href="mailto:neeladri.chattopadhyay@gmail.com"
+                      href="mailto:neeladri.chattopadhyay@ieee.org"
                       title="glorythemes"
                       className="mail"
                     >
-                      neeladri.chattopadhyay@gmail.coom
+                      neeladri.chattopadhyay@ieee.org
                     </a>
                   </p>
                   <ul className="social-footer2">

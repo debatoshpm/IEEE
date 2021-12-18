@@ -36,7 +36,7 @@ class Contact extends Component {
                     <h5 className="">Ready for support and cooperation</h5>
                     <p className="">
                       Phone: +91 86172 66615 <br />
-                      Email: neeladri.chattopadhyay@gmail.com
+                      Email: neeladri.chattopadhyay@ieee.org
                     </p>
                   </div>
                 </div>
